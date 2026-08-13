@@ -1,125 +1,123 @@
-# E-Commerce Sales & Customer Analytics
+# 📊 E-Commerce Sales & Customer Analytics
 
-## Project Overview
+An interactive **Power BI dashboard** designed to analyze e-commerce sales performance, customer behavior, product categories, regional performance, and delivery experience.
 
-This project analyzes 5,000 e-commerce transactions to identify
-revenue trends, customer behavior, regional performance, and the
-relationship between delivery time and customer satisfaction.
+## 🎯 Project Objective
 
-The analysis was performed using Python and PostgreSQL.
+The objective of this project is to transform raw e-commerce transaction data into meaningful business insights using **PostgreSQL, SQL, and Power BI**.
 
-## Business Objectives
+The dashboard helps analyze:
 
-1. Identify the key drivers of revenue across product categories,
-   regions, and customers.
+- Overall sales performance
+- Product category performance
+- Regional revenue distribution
+- Customer retention
+- Delivery performance
+- Customer ratings
+- Key business KPIs
 
-2. Analyze customer retention and delivery performance to identify
-   opportunities for improving revenue and customer satisfaction.
+## 🛠️ Tools & Technologies
 
-## Dataset
+- **PostgreSQL** – Data storage and database management
+- **SQL** – Data analysis and business queries
+- **Power BI** – Interactive dashboard and data visualization
+- **Git & GitHub** – Version control and project management
 
-- Total Orders: 5,000
-- Total Customers: 989
-- Total Units Sold: 20,224
-- Total Revenue: ₹5,109,775.74
-- Average Order Value: ₹1,021.96
+## 📈 Key Business KPIs
 
-### Main Features
+| KPI | Value |
+|---|---:|
+| Total Revenue | ₹5,109,775.74 |
+| Total Orders | 5,000 |
+| Total Customers | 989 |
+| Total Units Sold | 20,224 |
+| Average Order Value | ₹1,021.96 |
 
-- Order ID
-- Order Date
-- Customer ID
-- Product Category
-- Region
-- Quantity
-- Unit Price
-- Discount
-- Payment Method
-- Delivery Days
-- Customer Rating
+## 🛍️ Product Category Analysis
+
+The dashboard analyzes sales performance across different product categories, including:
+
+- Electronics
+- Clothing
+- Home
+- Beauty
+
+The analysis helps compare revenue, order volume, and quantity sold across product categories.
+
+## 🌍 Regional Analysis
+
+Sales performance is analyzed across different regions:
+
+- West
+- North
+- South
+- East
+
+The dashboard provides a comparison of revenue, orders, and quantity sold across regions.
+
+## 👥 Customer Analysis
+
+The project analyzes customer purchasing behavior and retention.
+
+Customers are categorized based on their purchasing activity to understand:
+
+- Repeat customers
+- One-time customers
+- Customer contribution to revenue
+- Overall customer retention
+
+## 🚚 Delivery & Customer Experience
+
+The dashboard analyzes the relationship between:
+
+- Delivery days
+- Customer ratings
+- Orders
 - Revenue
 
-## Tools & Technologies
+This helps understand delivery performance and its relationship with customer experience.
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- PostgreSQL
-- pgAdmin
-- Jupyter Notebook
-- SQL
+## 📊 Power BI Dashboard
 
-## Project Workflow
+The interactive dashboard includes:
 
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Business KPI Analysis
-5. Customer Segmentation
-6. PostgreSQL Data Analysis
-7. Data Visualization
-8. Business Insights
+- **Total Revenue**
+- **Total Orders**
+- **Total Customers**
+- **Total Units Sold**
+- **Average Order Value**
+- **Revenue by Product Category**
+- **Revenue by Region**
+- **Customer Retention Analysis**
+- **Delivery Time vs Customer Rating**
 
-## Key Business Insights
+The dashboard uses a clean, light-blue themed interface to provide an easy-to-understand view of business performance.
 
-### 1. Customer Retention
+## 🔍 Key Insights
 
-Repeat customers generated approximately 99.3% of total revenue,
-highlighting customer retention as a major contributor to business
-revenue.
+- The business generated more than **₹5.1 million** in total revenue.
+- The dataset contains **5,000 orders** from **989 customers**.
+- A total of **20,224 units** were sold.
+- The average order value is approximately **₹1,021.96**.
+- Customer retention can be analyzed by comparing repeat and one-time customers.
+- Product category performance can be compared based on revenue and order volume.
+- Regional performance can be evaluated using revenue, orders, and quantity sold.
+- Delivery days and customer ratings can be analyzed together to understand customer experience.
 
-### 2. Delivery Performance
+## 📁 Project Structure
 
-Longer delivery times were generally associated with lower customer
-ratings. The average rating decreased to approximately 2.89 for
-orders taking 11 days to deliver.
-
-### Additional Insights
-
-- Electronics generated the highest revenue at approximately ₹1.83M.
-- The West region generated the highest regional revenue at
-  approximately ₹1.35M.
-- Repeat customers had significantly higher average revenue per
-  customer than one-time customers.
-
-## SQL Analysis
-
-The PostgreSQL analysis included:
-
-- Overall business KPIs
-- Revenue by product category
-- Revenue by region
-- Repeat vs one-time customer analysis
-- Delivery performance and customer rating analysis
-
-## Visualizations
-
-The project contains visualizations for:
-
-- Revenue by Product Category
-- Revenue by Region
-- Customer Retention
-- Delivery Time vs Customer Rating
-
-## Project Structure
-
-Ecommerce_Sales_Customer_Analytics/
-
+```text
+E-Commerce-Sales-Customer-Analytics/
+│
+├── README.md
+│
 ├── data/
-
-├── notebook/
-
+│   └── ecommerce_sales_analytics_5000.csv
+│
 ├── sql/
-
-├── visualizations/
-
-└── README.md
-
-## Conclusion
-
-The analysis shows that customer retention is a major revenue driver,
-while delivery performance has an important relationship with customer
-satisfaction. The insights can help an e-commerce business prioritize
-customer retention strategies and improve delivery operations.
+│   └── SQL queries
+│
+├── screenshots/
+│   └── dashboard.png
+│
+└── E-Commerce-Sales-Analytics.pbix
