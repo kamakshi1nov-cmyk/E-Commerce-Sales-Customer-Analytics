@@ -121,3 +121,6 @@ E-Commerce-Sales-Customer-Analytics/
 │   └── dashboard.png
 │
 └── E-Commerce-Sales-Analytics.pbix
+## 🖼️ Dashboard Preview
+
+![E-Commerce Sales & Customer Analytics Dashboard](screenshot/dashboard.png)
